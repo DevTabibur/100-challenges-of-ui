@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
     });
     return config;
   },
+  images: {
+    domains: ['img.daisyui.com'], // Add 'img.daisyui.com' to the list of allowed domains
+  },
 };
 
 export default nextConfig;
