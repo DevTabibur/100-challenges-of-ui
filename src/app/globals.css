@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #e0fdff7a;
+  --background: #a7f4fa60;
   --foreground: #171717;
 }
 
@@ -19,5 +19,6 @@
 html,
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--background);
 }
 

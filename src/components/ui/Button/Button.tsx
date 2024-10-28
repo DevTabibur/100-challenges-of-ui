@@ -2,16 +2,16 @@
 import React from "react";
 
 interface ButtonProps {
-    label: string;
+    children: React.ReactNode | string
     icon?: React.ReactNode;
-    onClick: () => void;
+    onClick?: () => void;
     type?: "button" | "submit" | "reset";
     classNames?: string;
     isDisabled?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
-    label,
+    children,
     onClick,
     icon,
     type = "button",
@@ -26,7 +26,7 @@ const Button: React.FC<ButtonProps> = ({
             className={` ${isDisabled && "cursor-not-allowed"}  ${classNames}`}
         >
             {icon && <span>{icon}</span>}
-            <span>{label}</span>
+            <span>{children}</span>
         </button>
     );
 };
