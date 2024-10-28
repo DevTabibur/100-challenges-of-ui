@@ -21,8 +21,8 @@ const ProfileCard = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, fugit aliquid! Natus dolor placeat nihil reprehenderit inventore ad odio molestias.</p>
                 </div>
                 <div className="space-x-10 py-4">
-                    <Button classNames="bg-[#e03f8b] px-6 py-2 rounded-full text-white font-bold">Follow</Button>
-                    <Button classNames="border border-gray-200 px-6 py-2 rounded-full text-black font-bold">Message</Button>
+                    <Button className="bg-[#e03f8b] px-6 py-2 rounded-full text-white font-bold">Follow</Button>
+                    <Button className="border border-gray-200 px-6 py-2 rounded-full text-black font-bold">Message</Button>
                 </div>
             </div>
 

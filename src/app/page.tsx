@@ -1,4 +1,5 @@
 "use client"
+import AddToCart from "@/components/shared/addToCart/AddToCart";
 import ProfileCard from "@/components/shared/ProfileCard/ProfileCard";
 
 
@@ -7,7 +8,8 @@ export default function Home() {
     <>
       <h1>This is Home page</h1>
       
-      <ProfileCard/>
+      {/* <ProfileCard/> */}
+      <AddToCart/>
 
     </>
   );
